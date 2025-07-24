@@ -1,0 +1,114 @@
+/* 1. Make page take full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* 2. Make main content grow and push footer down */
+main {
+  flex: 1;
+}
+
+.booking-page {
+  background: linear-gradient(to bottom, #0b0742, #000);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.booking-info {
+  flex: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+.booking-info h1 {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+}
+
+.booking-info p {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.booking-info img {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.booking-form {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+}
+
+.booking-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-family: "Playfair Display", serif;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.booking-form button {
+  background-color: #ff4f41;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.booking-form button:hover {
+  background-color: #e63a2f;
+}

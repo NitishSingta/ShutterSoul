@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | ShutterSoul</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="services.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+          <a href="index.html" class="brand">ShutterSoul</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Bookings</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="services-page">
+      <section class="services-hero">
+        <h1 data-aos="fade-up">Our Offerings</h1>
+        <p data-aos="fade-up" data-aos-delay="200">
+          Crafted experiences for every moment worth remembering.
+        </p>
+      </section>
+
+      <section class="service-cards">
+        <div class="service-card" data-aos="fade-up">
+          <i class="fas fa-camera-retro"></i>
+          <h3>Wedding Photography</h3>
+          <p>
+            Capturing your special day with timeless elegance and storytelling
+            frames.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-baby"></i>
+          <h3>Newborn & Maternity</h3>
+          <p>
+            Preserving those first tiny moments of joy and the beauty of
+            motherhood.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-user"></i>
+          <h3>Portraits & Headshots</h3>
+          <p>
+            Elegant, powerful, and soulful portraits that reflect your
+            personality.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-mountain"></i>
+          <h3>Travel & Landscape</h3>
+          <p>
+            From wanderlust to wild — storytelling frames of the world around
+            us.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Brand Section -->
+        <div class="footer-section brand-section" data-aos="fade-up">
+          <div class="logo-wrapper">
+            <img src="assets/logo.png" alt="logo" class="footer-logo" />
+          </div>
+          <h2>ShutterSoul</h2>
+          <p>Where every frame tells a soul-stirring story.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#shuttersoul-experience">Experience</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-section" data-aos="fade-up" data-aos-delay="400">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> connect@shuttersoul.in</p>
+          <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <hr />
+        <p>
+          &copy; 2025 <strong>ShutterSoul</strong>. Crafted with passion for
+          soulful photography.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false, // allow re-animation every time you scroll up/down
+        duration: 1000,
+        once: true,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
